@@ -1,8 +1,8 @@
-FROM centos:7
+FROM registry.access.redhat.com/rhel7
 
-MAINTAINER Erik Jacobs <erikmjacobs@gmail.com>
+MAINTAINER Andrew Pitt <andrew.pitt@canada.ca>
 
-ARG GOGS_VERSION="0.9.113"
+ARG GOGS_VERSION="0.11.53"
 
 LABEL name="Gogs - Go Git Service" \
       vendor="Gogs" \
